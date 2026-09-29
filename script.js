@@ -51,4 +51,27 @@ function imparPar() {
     (num % 2 === 0) ? alert("Este numero é par!") : alert("Esse numero é impar");
 }
 
-function valoresiguais() {}
+function valoresIguais() {
+    let a = Number(prompt("Digite o valor de A:"));
+    let b = Number(prompt("Digite o valor de B:"));
+
+    if (a === b) {
+        let c = a + b;
+        alert("A soma de A + B é: " + c); 
+    } else {
+        let c = a * b;
+        alert("O produto de A * B é: " + c);
+    }
+} 
+
+function valorPositivoNegativo() {
+    let number = Number(prompt("Digite um numero positivo ou negativo:"));
+    
+    if (number > 0) {
+        let dobro = number * 2;
+        alert("O dobro é: " + dobro);
+    } else {
+        let resultado = number * 3;
+        alert("O triplo é: " + resultado);
+    }
+}
