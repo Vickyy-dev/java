@@ -45,3 +45,10 @@ function tempoCasamento() {
         `);
     }
 }
+
+function imparPar() {
+    let num = Number(prompt("Digite um numero:"));
+    (num % 2 === 0) ? alert("Este numero é par!") : alert("Esse numero é impar");
+}
+
+function valoresiguais() {}
