@@ -75,3 +75,5 @@ function valorPositivoNegativo() {
         alert("O triplo é: " + resultado);
     }
 }
+
+function veri
